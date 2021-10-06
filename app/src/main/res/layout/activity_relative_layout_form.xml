@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/relativeLayout"
-    tools:context=".RelativeLayoutForm">
+    tools:context=".RelativeLayoutFormActivity">
 
     <TextView
         android:id="@+id/regTextView"
@@ -42,6 +42,7 @@
         android:textSize="16sp"
         android:layout_gravity="center"
         android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
         android:layout_below="@+id/regTextView"
         android:layout_toEndOf="@+id/nameTextView"
         android:layout_alignParentEnd="true"
@@ -66,13 +67,15 @@
         android:layout_below="@+id/nameEditText"
         android:layout_marginStart="16dp"
         android:layout_marginTop="2dp"
-        android:layout_marginEnd="0dp"
+        android:layout_marginEnd="16dp"
         android:layout_alignParentEnd="true"
         android:layout_toEndOf="@+id/nameTextView"
         android:hint="Enter Your Email"
         android:inputType="textEmailAddress"
         android:textColor="@color/black"
-        android:textSize="16sp" />
+        android:textSize="16sp" >
+
+    </EditText>
 
     <TextView
         android:id="@+id/genderTextView"
@@ -126,7 +129,7 @@
         android:layout_below="@+id/maleRB"
         android:layout_marginStart="16dp"
         android:layout_marginTop="2dp"
-        android:layout_marginEnd="0dp"
+        android:layout_marginEnd="16dp"
         android:layout_alignParentEnd="true"
         android:layout_toEndOf="@+id/passwordTextView"
         android:hint="Enter Your Password"

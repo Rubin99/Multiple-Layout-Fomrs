@@ -3,9 +3,9 @@ package com.example.form
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class RelativeLayoutForm : AppCompatActivity() {
+class ConstraintLayoutFormActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_relative_layout_form)
+        setContentView(R.layout.activity_constraint_layout_form)
     }
 }
