@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/profileIV"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="16dp"
+        android:src="@drawable/logo1"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/nameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        tools:text="Name"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/emailTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        tools:text="Email"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/ageTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        tools:text="Age"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+
+</LinearLayout>

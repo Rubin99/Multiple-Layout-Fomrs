@@ -1,7 +1,8 @@
-package com.example.form
+package com.example.form.Forms
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.form.R
 
 class LinearlayoutFormActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

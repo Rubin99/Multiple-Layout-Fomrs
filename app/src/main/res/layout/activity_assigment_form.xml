@@ -124,9 +124,18 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/confirmPassword_EditText"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="32dp"
         android:textSize="18sp"
         android:text="@string/register" />
+    <Button
+        android:id="@+id/recyclerViewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_Button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:text="@string/recycler_view" />
 
 
 </RelativeLayout>

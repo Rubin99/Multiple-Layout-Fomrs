@@ -1,4 +1,4 @@
-package com.example.form
+package com.example.form.Forms
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,6 +8,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.Toast
+import com.example.form.R
+import com.example.form.inflate
 
 class ButtonsFragment : Fragment() {
 

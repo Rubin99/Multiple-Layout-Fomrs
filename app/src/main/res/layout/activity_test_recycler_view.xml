@@ -4,19 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="16dp"
     android:orientation="vertical"
-    tools:context=".Forms.MainActivity">
+    tools:context=".RecyclerView.TestRecyclerViewActivity">
 
-    <Button
-        android:id="@+id/btnLayouts"
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/layout_forms"/>
-
-    <FrameLayout
-        android:id="@+id/frameLayoutButtons"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerView" />
 
 </LinearLayout>
