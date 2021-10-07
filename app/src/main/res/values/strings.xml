@@ -2,4 +2,25 @@
     <string name="app_name">Form</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="registration">Registration</string>
+    <string name="email">Email</string>
+    <string name="terms_conditions">I agree to the Terms and Conditions</string>
+    <string name="name2">Name:</string>
+    <string name="email2">Email:</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_email">Enter Your email</string>
+    <string name="gender">Gender:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="password2">Password:</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="layout_forms">Layout Forms</string>
+    <string name="linear_layout">Linear Layout</string>
+    <string name="constraint_layout">Constraint Layout</string>
+    <string name="relative_layout">Relative Layout</string>
 </resources>

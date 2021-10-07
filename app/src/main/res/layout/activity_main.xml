@@ -12,7 +12,7 @@
         android:id="@+id/btnLayouts"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Layout Forms"/>
+        android:text="@string/layout_forms"/>
 
     <FrameLayout
         android:id="@+id/frameLayoutButtons"

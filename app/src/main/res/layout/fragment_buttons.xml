@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_margin="16dp"
-        android:text="Linear Layout"
+        android:text="@string/linear_layout"
         android:textSize="24sp"/>
 
     <Button
@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_margin="16dp"
-        android:text="Constraint Layout"
+        android:text="@string/constraint_layout"
         android:textSize="24sp"/>
 
     <Button
@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_margin="16dp"
-        android:text="Relative Layout"
+        android:text="@string/relative_layout"
         android:textSize="24sp"/>
 
 

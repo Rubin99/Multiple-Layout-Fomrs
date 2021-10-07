@@ -17,7 +17,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:textSize="24sp"
-        android:text="Name" />
+        android:text="@string/name" />
 
     <EditText
         android:id="@+id/nameEditText"
@@ -30,7 +30,7 @@
         android:layout_marginTop="8dp"
         android:inputType="text"
         android:textSize="18sp"
-        android:background="#F2F2F2"
+        android:background="@drawable/et_custom"
         android:padding="15dp"
         android:ems="10" >
 
@@ -46,7 +46,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:textSize="24sp"
-        android:text="Username" />
+        android:text="@string/username" />
 
     <EditText
         android:id="@+id/username_EditText"
@@ -59,7 +59,7 @@
         android:layout_marginTop="8dp"
         android:inputType="text"
         android:textSize="18sp"
-        android:background="#F2F2F2"
+        android:background="@drawable/et_custom"
         android:padding="15dp"
         android:ems="10" >
     </EditText>
@@ -73,8 +73,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:textSize="24sp"
-
-        android:text="Password" />
+        android:text="@string/password" />
 
     <EditText
         android:id="@+id/password_EditText"
@@ -87,7 +86,7 @@
         android:layout_marginTop="8dp"
         android:inputType="textPassword"
         android:textSize="18sp"
-        android:background="#F2F2F2"
+        android:background="@drawable/et_custom"
         android:padding="15dp"
         android:ems="10" >
     </EditText>
@@ -101,7 +100,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:textSize="24sp"
-        android:text="Confirm Password" />
+        android:text="@string/confirm_password" />
 
     <EditText
         android:id="@+id/confirmPassword_EditText"
@@ -114,7 +113,7 @@
         android:layout_marginTop="8dp"
         android:inputType="textPassword"
         android:textSize="18sp"
-        android:background="#F2F2F2"
+        android:background="@drawable/et_custom"
         android:padding="15dp"
         android:ems="10" >
     </EditText>
@@ -127,7 +126,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="48dp"
         android:textSize="18sp"
-        android:text="Register" />
+        android:text="@string/register" />
 
 
 </RelativeLayout>
