@@ -7,11 +7,15 @@ import com.example.form.R
 import com.example.form.inflate
 
 class TestAdapter (
-    private val context: Context, private val testDataList: MutableList<TestData>
+    private val context: Context,
+    private val testDataList: MutableList<TestData>,
+    private val onViewClicked: (position: Int) -> Unit
     ) : RecyclerView.Adapter<TestViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
-        TestViewHolder(parent.inflate(R.layout.items_list))
+        TestViewHolder(parent.inflate(R.layout.items_list)) { position ->
+            onViewClicked(position)
+        }
 
     override fun onBindViewHolder(holder: TestViewHolder, position: Int) {
         val testData = testDataList[position]

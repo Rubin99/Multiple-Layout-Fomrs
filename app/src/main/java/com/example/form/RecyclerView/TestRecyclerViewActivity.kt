@@ -1,9 +1,12 @@
 package com.example.form.RecyclerView
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.form.AssigmentFormActivity
+import com.example.form.Forms.MainActivity
 import com.example.form.R
 
 class TestRecyclerViewActivity : AppCompatActivity() {
@@ -26,7 +29,10 @@ class TestRecyclerViewActivity : AppCompatActivity() {
         testDataList.add(TestData(R.drawable.logo2, "Jane Doe", "janedoe@gmail.com", 21))
         testDataList.add(TestData(R.drawable.logo3, "John Doe", "johndoe@gmail.com", 23))
 
-        testAdapter = TestAdapter(this, testDataList)
+        testAdapter = TestAdapter(this, testDataList){ position ->
+            val intent = Intent(this, MainActivity :: class.java)
+            startActivity(intent)
+        }
         recyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
         recyclerView.adapter = testAdapter
     }
