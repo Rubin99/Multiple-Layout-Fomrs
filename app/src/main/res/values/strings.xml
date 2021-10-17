@@ -25,4 +25,5 @@
     <string name="relative_layout">Relative Layout</string>
     <string name="recycler_view">Recycler View</string>
     <string name="view">View</string>
+    <string name="position">Position</string>
 </resources>

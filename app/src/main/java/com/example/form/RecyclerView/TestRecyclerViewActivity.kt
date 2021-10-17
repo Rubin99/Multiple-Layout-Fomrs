@@ -30,7 +30,10 @@ class TestRecyclerViewActivity : AppCompatActivity() {
         testDataList.add(TestData(R.drawable.logo3, "John Doe", "johndoe@gmail.com", 23))
 
         testAdapter = TestAdapter(this, testDataList){ position ->
+
+            val testData = testDataList[position]
             val intent = Intent(this, MainActivity :: class.java)
+            intent.putExtra("testData", testData)
             startActivity(intent)
         }
         recyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)

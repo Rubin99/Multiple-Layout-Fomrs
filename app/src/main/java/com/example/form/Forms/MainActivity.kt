@@ -3,11 +3,19 @@ package com.example.form.Forms
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
+import android.widget.Toast
 import com.example.form.R
+import com.example.form.RecyclerView.TestData
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var btnLayouts: Button
+
+    //private var position: Int = -1
+    private var testData: TestData? = null
+
+    private lateinit var positionTV: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,24 +26,17 @@ class MainActivity : AppCompatActivity() {
         btnLayouts.setOnClickListener {
                 loadFormFragment()
         }
+        positionTV = findViewById(R.id.positionTV)
 
-    /*val linearButton = findViewById<Button>(R.id.linearBtn)
-        linearButton.setOnClickListener {
-            val intent = Intent(this, LinearlayoutFormActivity::class.java)
-            startActivity(intent)
-        }
+        testData = intent.getParcelableExtra("testData")
 
-        val constraintButton = findViewById<Button>(R.id.constraintBtn)
-        constraintButton.setOnClickListener {
-            val intent = Intent(this, ConstraintLayoutFormActivity::class.java)
-            startActivity(intent)
-        }
+        positionTV.text = testData?.nameTV ?: "Name"
+        /*position = intent.getIntExtra("position", -1)
 
-        val relativeButton = findViewById<Button>(R.id.relativeBtn)
-        relativeButton.setOnClickListener {
-            val intent = Intent(this, RelativeLayoutFormActivity::class.java)
-            startActivity(intent)
-        }*/
+        Toast.makeText(this, "Position -> $position", Toast.LENGTH_LONG)
+
+        positionTV.text = "$position " + "Position"*/
+
     }
 
     private fun loadFormFragment() {
