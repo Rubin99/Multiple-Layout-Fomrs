@@ -13,7 +13,7 @@ class TestAdapter (
     ) : RecyclerView.Adapter<TestViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
-        TestViewHolder(parent.inflate(R.layout.items_list)) { position ->
+        TestViewHolder(parent.inflate(R.layout.adapter_items_list)) { position ->
             onViewClicked(position)
         }
 
