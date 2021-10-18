@@ -5,8 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
-import com.example.form.Forms.MainActivity
-import com.example.form.RecyclerView.TestRecyclerViewActivity
+import com.example.form.forms.MainActivity
+import com.example.form.recyclerview.TestRecyclerViewActivity
 
 class AssigmentFormActivity : AppCompatActivity() {
 

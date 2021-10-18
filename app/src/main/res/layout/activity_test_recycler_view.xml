@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".RecyclerView.TestRecyclerViewActivity">
+    tools:context=".recyclerview.TestRecyclerViewActivity">
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"

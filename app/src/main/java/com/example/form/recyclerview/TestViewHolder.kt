@@ -1,4 +1,4 @@
-package com.example.form.RecyclerView
+package com.example.form.recyclerview
 
 import android.view.View
 import android.widget.Button

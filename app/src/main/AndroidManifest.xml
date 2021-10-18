@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Form">
-        <activity android:name=".RecyclerView.TestRecyclerViewActivity"></activity>
+        <activity android:name=".recyclerview.TestRecyclerViewActivity"></activity>
         <activity android:name=".AssigmentFormActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,10 +17,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Forms.ConstraintLayoutFormActivity" />
-        <activity android:name=".Forms.RelativeLayoutFormActivity" />
-        <activity android:name=".Forms.LinearlayoutFormActivity" />
-        <activity android:name=".Forms.MainActivity">
+        <activity android:name=".forms.ConstraintLayoutFormActivity" />
+        <activity android:name=".forms.RelativeLayoutFormActivity" />
+        <activity android:name=".forms.LinearlayoutFormActivity" />
+        <activity android:name=".forms.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

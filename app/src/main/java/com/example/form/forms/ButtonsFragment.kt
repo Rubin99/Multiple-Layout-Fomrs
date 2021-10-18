@@ -1,4 +1,4 @@
-package com.example.form.Forms
+package com.example.form.forms
 
 import android.content.Intent
 import android.os.Bundle

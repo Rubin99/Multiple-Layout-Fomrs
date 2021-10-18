@@ -1,12 +1,11 @@
-package com.example.form.Forms
+package com.example.form.forms
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
-import android.widget.Toast
 import com.example.form.R
-import com.example.form.RecyclerView.TestData
+import com.example.form.recyclerview.TestData
 
 class MainActivity : AppCompatActivity() {
 

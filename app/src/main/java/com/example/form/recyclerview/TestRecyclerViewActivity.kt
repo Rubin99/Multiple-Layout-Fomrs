@@ -1,13 +1,12 @@
-package com.example.form.RecyclerView
+package com.example.form.recyclerview
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.form.AssigmentFormActivity
-import com.example.form.Forms.MainActivity
 import com.example.form.R
+import com.example.form.forms.MainActivity
 
 class TestRecyclerViewActivity : AppCompatActivity() {
 
@@ -25,14 +24,21 @@ class TestRecyclerViewActivity : AppCompatActivity() {
 
     private fun initRecyclerView() {
         testDataList = ArrayList()
-        testDataList.add(TestData(R.drawable.logo1, "Rubin Shrestha", "rubinshrestha14@gmail.com", 22))
+        testDataList.add(
+            TestData(
+                R.drawable.logo1,
+                "Rubin Shrestha",
+                "rubinshrestha14@gmail.com",
+                22
+            )
+        )
         testDataList.add(TestData(R.drawable.logo2, "Jane Doe", "janedoe@gmail.com", 21))
         testDataList.add(TestData(R.drawable.logo3, "John Doe", "johndoe@gmail.com", 23))
 
-        testAdapter = TestAdapter(this, testDataList){ position ->
+        testAdapter = TestAdapter(this, testDataList) { position ->
 
             val testData = testDataList[position]
-            val intent = Intent(this, MainActivity :: class.java)
+            val intent = Intent(this, MainActivity::class.java)
             intent.putExtra("testData", testData)
             startActivity(intent)
         }

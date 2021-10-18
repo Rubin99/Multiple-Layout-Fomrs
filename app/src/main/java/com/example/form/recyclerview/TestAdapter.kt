@@ -1,4 +1,4 @@
-package com.example.form.RecyclerView
+package com.example.form.recyclerview
 
 import android.content.Context
 import android.view.ViewGroup
